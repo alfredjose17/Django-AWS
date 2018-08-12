@@ -1,2 +1,2 @@
 # Image2Text
-A Project for MECLabs.
+Image to Text Converter using Neural Networks and Deep Learning.
