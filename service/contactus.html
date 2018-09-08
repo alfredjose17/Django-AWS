@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;background: url(1.png);
+    background-position: center;
+    background-size: cover;}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=email], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    background: url(2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+</style>
+</head>
+<body>
+
+<b><form>
+    <input style="width: 200px; padding: 20px; cursor: pointer; box-shadow: 6px 6px 5px; #999; -webkit-box-shadow: 6px 6px 5px #999; -moz-box-shadow: 6px 6px 5px #999; font-weight: bold; background: #ffff00; color: #000; border-radius: 10px; border: 1px solid #999; font-size: 100%;" type="button" value='Contact Form' onclick="window.location.href='#x'" />
+    </form></b>
+
+<div class="container">
+    <form method="post" action="send_mail.php">
+    <label for="fname" style="color:white">First Name</label>
+    <input type="text" id="fname" name="first_name" placeholder="Your name">
+
+    <label for="lname" style="color:white">Email</label>
+    <input type="email" id="lname" name="email_address" placeholder="Your email" style="height:35px">
+<br>
+    <label for="semester" style="color:white">Subject</label>
+    <select id="semester" name="semester">
+      <option value="2">Comments</option>
+      <option value="4">Errors</option>
+      <option value="6">Complainnt</option>
+      <option value="8">Others</option>
+    </select>
+
+    <label for="subject" style="color:white">Problems</label>
+    <textarea id="subject" name="comments" placeholder="Write your problem.." style="height:200px"></textarea>
+
+    <p><button style="width: 200px; padding: 20px; cursor: pointer; box-shadow: 6px 6px 5px; #999; -webkit-box-shadow: 6px 6px 5px #999; -moz-box-shadow: 6px 6px 5px #999; font-weight: bold; background: #ffff00; color: #000; border-radius: 10px; border: 1px solid #999; font-size: 100%;">Submit the form</button></p>
+    <input style="width: 200px; padding: 20px; cursor: pointer; box-shadow: 6px 6px 5px; #999; -webkit-box-shadow: 6px 6px 5px #999; -moz-box-shadow: 6px 6px 5px #999; font-weight: bold; background: #ffff00; color: #000; border-radius: 10px; border: 1px solid #999; font-size: 100%;" type="reset" value="Reset">
+    <br><br><form>
+        <input style="width: 200px; padding: 20px; cursor: pointer; box-shadow: 6px 6px 5px; #999; -webkit-box-shadow: 6px 6px 5px #999; -moz-box-shadow: 6px 6px 5px #999; font-weight: bold; background: #ffff00; color: #000; border-radius: 10px; border: 1px solid #999; font-size: 100%;" type="button" value="Home" onclick="window.location.href='../index.html'" />
+        </form>
+  </form>
+  
+</div>
+
+</body>
+</html>
