@@ -1,4 +1,3 @@
-### Image2Text
 
 ## Ground Rules Github.
 
