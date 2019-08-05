@@ -19,4 +19,3 @@
 
 * Don't work on master branch, whatever you're doing, make a feature branch, the master branch should always be stable.
 
-## Violation of the ground rules are punishable by death.
